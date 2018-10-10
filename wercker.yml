@@ -139,7 +139,7 @@ integration-test:
 
       # running on Wercker
       export WERCKER="true"
-      export LB_TYPE=VOYAGER
+      export LB_TYPE="VOYAGER"
 
       # install kubectl
       # export K8S_CLIENT_VERSION="$(curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt)"   #latest version
