@@ -771,7 +771,7 @@ public class Domain {
     if (domainMap.get("loadBalancer") != null) {
       loadBalancer = domainMap.get("loadBalancer").toString();
     } else if (System.getenv("LB_TYPE") != null) {
-      loadBalancer = "VOYAGER";//System.getenv("LB_TYPE");
+      loadBalancer = "VOYAGER"; // System.getenv("LB_TYPE");
     }
     if (!loadBalancer.equals("APACHE")
         && !loadBalancer.equals("TRAEFIK")
